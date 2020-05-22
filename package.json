@@ -1,0 +1,26 @@
+{
+    "name": "travis-ci-testing",
+    "version": "1.0.0",
+    "description": "Testing travis CI with node js",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "dev": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GodaProjects/travis-ci-testing.git"
+    },
+    "author": "Goda",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GodaProjects/travis-ci-testing/issues"
+    },
+    "homepage": "https://github.com/GodaProjects/travis-ci-testing#readme",
+    "dependencies": {
+        "chai": "^4.2.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mocha": "^7.1.2"
+    }
+}
